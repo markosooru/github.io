@@ -7,34 +7,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Marko Sõõru">
   <style>
+    footer {
+      border-top: 2px;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 0;
+      border-style: solid;
+      border-color: white;
+    }
     body {
-      text-align: center;}
-    table {
-      border: 2px;
-      align-self: center;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #292929;
+      color: white;
+    }
+    table, tr, td, th {
+      border: 3px white;
+      border-collapse: collapse;
+      border-style: solid;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      margin-bottom: 40px;
+      width: 700px;
+    }
+    tr, td, th {
+      padding: 5px;
+    }
+    img {
+      width: 250px;
+      padding-top: 30px;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    a {
+      color: white;
+    }
+    main {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
     }
   </style>
 </head>
 
 <body>
-    <h1>Laser kass!!!!11</h1>
-    <br>
-    <img src="LaserCat.jpeg" alt="Laserkassi pilt">
-    <br>
-    <table>
-      <tr>
-        <th>Nimi</th>
-        <th>Jalad</th>
-        <th>Silmad</th>
-        <th>Tegevus</th>
-      </tr>
-      <tr>
-        <td>Laser Kiisu</td>
-        <td>Neli kämmalt</td>
-        <td>Värviline laser, mis põletab kõik kurja siit maailmast</td>
-        <td>Kui maailma paremaks ei tee, siis meeldib lõngakeraga mängida</td>
-      </tr>
-    </table>
-
+  <img src="LaserCat.jpeg" alt="Laserkassi pilt">
+  <main>
+    <h2>Kiisu lugu</h2>
+    <p>
+      Kiisu on sündinud seitme maa ja mere taga kohas nimega Kiisumaa. Seal ta õppis mitmeid aastaid, kuni lõpuks
+      sai minna enda meistri juurde, kes kinkis talle lasersilmad. Kiisu kasutab nüüd enda lasersilmasid, et teha
+      maailmast üks ilus koht elamiseks.
+    </p>
+  </main>
+  <h2>Kiisu andmed</h2>
+  <table>
+    <tr>
+      <th>Nimi</th>
+      <th>Jalad</th>
+      <th>Silmad</th>
+      <th>Tegevus</th>
+    </tr>
+    <tr>
+      <td>Laser Kiisu</td>
+      <td>Neli kämmalt</td>
+      <td>Värviline laser, mis põletab kõik kurja siit maailmast</td>
+      <td>Kui maailma paremaks ei tee, siis meeldib lõngakeraga mängida</td>
+    </tr>
+  </table>
 </body>
+
+<footer>
+  <p>Marko Sõõru 223350IADB | <a href="https://taltech.ee/">TalTech</a></p>
+</footer>
+
 </html>
