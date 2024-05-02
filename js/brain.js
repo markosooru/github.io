@@ -448,6 +448,8 @@ export default class Brain {
     endGame() {
         console.log("Game over!");
         this.level = 1;
+        this.ballSpeed = 3 + this.level;
+        this.paddle.left = 750;
         this.lastScore = this.score;
         this.scores.push(this.score);
         this.scores.sort((a, b) => b - a);
